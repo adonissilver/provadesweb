@@ -49,4 +49,4 @@ Critérios de Avaliação
 2. CSS e Responsividade (4,0 pts): O layout não "quebra" ao redimensionar a tela? Os cards estão adequadamente
 posicionados? A responsividade funciona? O uso de Flex/Grid foi efetivo?
 3. Lógica JS (3,0 pts): O botão/link alterna as informações adequadamente, manipulando o DOM?
-4. Organização (2,0 pts): Código limpo, identado e com os comentários explicativos exigid
+4. Organização (2,0 pts): Código limpo, identado e com os comentários explicativos exigidos
