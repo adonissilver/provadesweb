@@ -39,7 +39,7 @@ body{ /*seletor da tag body */
     transform:scale(1.03);/*aumento de 0,03 em relacao ao tamanho original - aumento de 3%*/
 }
 
-@media(min-width:600px){/*regra de Media Query - quando a tela for 768pixels ou menor, ativa o que está dentro do parenteses*/
+@media(min-width:800px){/*regra de Media Query - quando a tela for 768pixels ou menor, ativa o que está dentro do parenteses*/
 
     .layout{/*classe layout*/
         grid-template-columns:2fr 1fr;/*a primeira coluna é o dobro da segunda coluna*/
