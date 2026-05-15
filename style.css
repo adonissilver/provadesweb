@@ -1,0 +1,48 @@
+
+
+
+body{ /*seletor da tag body */
+    font-family:Arial;/*fonte Arial*/
+    background:#ffeef2;/*cor de fundo */
+    padding:20px;/* espaço entre conteudo e borda de 20px*/
+}
+
+
+
+.layout{ /*classe layout*/
+    display:grid;/*escollhi grid para ter mais controle*/
+    grid-template-columns:1fr;/*1fr siginifica 1frame = 1 coluna (como é mobilefirst)*/
+    gap:20px;/*gap distancia entre os  elementos do layout*/
+}
+
+
+
+ 
+.principal{ /*classe principal*/
+    background:white; /*fundo branco */
+    padding:30px; /*espaco de 30 pixels*/
+    border-radius:10px; /*borda arredondada*/
+    min-height:300px; /*altura minima*/
+}
+
+
+
+.mini{  /*classe mini*/
+    background:#ffb3c1;/* cor de fundo :#ffb3c1;*/
+    padding:20px;/*espaco entre conteudo e borda*/
+    border-radius:10px;/*borda arredondada*/
+    cursor:pointer;/*cursor do ponteiro muda para ícone de Mão, incentivo a clicar*/
+    text-align:center;/*alinhamento centralizado*/
+}
+
+.mini:hover{/*classe hover, especifica o comportamento do elemento quando o mouse passa por cima*/
+    transform:scale(1.03);/*aumento de 0,03 em relacao ao tamanho original - aumento de 3%*/
+}
+
+@media(min-width:600px){/*regra de Media Query - quando a tela for 768pixels ou menor, ativa o que está dentro do parenteses*/
+
+    .layout{/*classe layout*/
+        grid-template-columns:2fr 1fr;/*a primeira coluna é o dobro da segunda coluna*/
+    }
+
+}
